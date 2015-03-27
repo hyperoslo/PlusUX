@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD50A9AD1AC5D99500DA68BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD50A9AC1AC5D99500DA68BD /* AppDelegate.swift */; };
+		BD50A9AF1AC5D99500DA68BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD50A9AE1AC5D99500DA68BD /* ViewController.swift */; };
+		BD50A9B21AC5D99500DA68BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD50A9B01AC5D99500DA68BD /* Main.storyboard */; };
+		BD50A9B41AC5D99500DA68BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD50A9B31AC5D99500DA68BD /* Images.xcassets */; };
+		BD50A9B71AC5D99500DA68BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD50A9B51AC5D99500DA68BD /* LaunchScreen.xib */; };
+		BD50A9CE1AC5D9FA00DA68BD /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD50A9CD1AC5D9FA00DA68BD /* DesignableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD50A9A71AC5D99500DA68BD /* PlusUX Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PlusUX Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD50A9AB1AC5D99500DA68BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD50A9AC1AC5D99500DA68BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD50A9AE1AC5D99500DA68BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD50A9B11AC5D99500DA68BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD50A9B31AC5D99500DA68BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD50A9B61AC5D99500DA68BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BD50A9CD1AC5D9FA00DA68BD /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD50A9A41AC5D99500DA68BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD50A99C1AC5D95000DA68BD = {
+			isa = PBXGroup;
+			children = (
+				BD50A9A91AC5D99500DA68BD /* PlusUX Demo */,
+				BD50A9A81AC5D99500DA68BD /* Products */,
+				BD50A9CA1AC5D9A000DA68BD /* Source */,
+			);
+			sourceTree = "<group>";
+		};
+		BD50A9A81AC5D99500DA68BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD50A9A71AC5D99500DA68BD /* PlusUX Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD50A9A91AC5D99500DA68BD /* PlusUX Demo */ = {
+			isa = PBXGroup;
+			children = (
+				BD50A9AC1AC5D99500DA68BD /* AppDelegate.swift */,
+				BD50A9AE1AC5D99500DA68BD /* ViewController.swift */,
+				BD50A9B01AC5D99500DA68BD /* Main.storyboard */,
+				BD50A9B31AC5D99500DA68BD /* Images.xcassets */,
+				BD50A9B51AC5D99500DA68BD /* LaunchScreen.xib */,
+				BD50A9AA1AC5D99500DA68BD /* Supporting Files */,
+			);
+			path = "PlusUX Demo";
+			sourceTree = "<group>";
+		};
+		BD50A9AA1AC5D99500DA68BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD50A9AB1AC5D99500DA68BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD50A9CA1AC5D9A000DA68BD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BD50A9CD1AC5D9FA00DA68BD /* DesignableView.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD50A9A61AC5D99500DA68BD /* PlusUX Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD50A9C81AC5D99500DA68BD /* Build configuration list for PBXNativeTarget "PlusUX Demo" */;
+			buildPhases = (
+				BD50A9A31AC5D99500DA68BD /* Sources */,
+				BD50A9A41AC5D99500DA68BD /* Frameworks */,
+				BD50A9A51AC5D99500DA68BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PlusUX Demo";
+			productName = "PlusUX Demo";
+			productReference = BD50A9A71AC5D99500DA68BD /* PlusUX Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD50A99D1AC5D95000DA68BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				TargetAttributes = {
+					BD50A9A61AC5D99500DA68BD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = BD50A9A01AC5D95000DA68BD /* Build configuration list for PBXProject "PlusUX Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD50A99C1AC5D95000DA68BD;
+			productRefGroup = BD50A9A81AC5D99500DA68BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD50A9A61AC5D99500DA68BD /* PlusUX Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD50A9A51AC5D99500DA68BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD50A9B21AC5D99500DA68BD /* Main.storyboard in Resources */,
+				BD50A9B71AC5D99500DA68BD /* LaunchScreen.xib in Resources */,
+				BD50A9B41AC5D99500DA68BD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD50A9A31AC5D99500DA68BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD50A9AF1AC5D99500DA68BD /* ViewController.swift in Sources */,
+				BD50A9AD1AC5D99500DA68BD /* AppDelegate.swift in Sources */,
+				BD50A9CE1AC5D9FA00DA68BD /* DesignableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD50A9B01AC5D99500DA68BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD50A9B11AC5D99500DA68BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD50A9B51AC5D99500DA68BD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD50A9B61AC5D99500DA68BD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD50A9A11AC5D95000DA68BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		BD50A9A21AC5D95000DA68BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		BD50A9C41AC5D99500DA68BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "PlusUX Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD50A9C51AC5D99500DA68BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "PlusUX Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD50A9A01AC5D95000DA68BD /* Build configuration list for PBXProject "PlusUX Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD50A9A11AC5D95000DA68BD /* Debug */,
+				BD50A9A21AC5D95000DA68BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD50A9C81AC5D99500DA68BD /* Build configuration list for PBXNativeTarget "PlusUX Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD50A9C41AC5D99500DA68BD /* Debug */,
+				BD50A9C51AC5D99500DA68BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD50A99D1AC5D95000DA68BD /* Project object */;
+}
