@@ -13,6 +13,8 @@
 		BD50A9B41AC5D99500DA68BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD50A9B31AC5D99500DA68BD /* Images.xcassets */; };
 		BD50A9B71AC5D99500DA68BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD50A9B51AC5D99500DA68BD /* LaunchScreen.xib */; };
 		BD50A9CE1AC5D9FA00DA68BD /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD50A9CD1AC5D9FA00DA68BD /* DesignableView.swift */; };
+		BD50A9D01AC5DFF800DA68BD /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD50A9CF1AC5DFF800DA68BD /* DesignableButton.swift */; };
+		BD50A9D21AC5E0A300DA68BD /* Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD50A9D11AC5E0A300DA68BD /* Designable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BD50A9B31AC5D99500DA68BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BD50A9B61AC5D99500DA68BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BD50A9CD1AC5D9FA00DA68BD /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		BD50A9CF1AC5DFF800DA68BD /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		BD50A9D11AC5E0A300DA68BD /* Designable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Designable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				BD50A9CD1AC5D9FA00DA68BD /* DesignableView.swift */,
+				BD50A9D11AC5E0A300DA68BD /* Designable.swift */,
+				BD50A9CF1AC5DFF800DA68BD /* DesignableButton.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -153,8 +159,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD50A9AF1AC5D99500DA68BD /* ViewController.swift in Sources */,
+				BD50A9D21AC5E0A300DA68BD /* Designable.swift in Sources */,
 				BD50A9AD1AC5D99500DA68BD /* AppDelegate.swift in Sources */,
 				BD50A9CE1AC5D9FA00DA68BD /* DesignableView.swift in Sources */,
+				BD50A9D01AC5DFF800DA68BD /* DesignableButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

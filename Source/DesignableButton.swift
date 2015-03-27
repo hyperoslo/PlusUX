@@ -1,6 +1,6 @@
 //
-//  DesignableView.swift
-//  PlusUXDemo
+//  DesignableButton.swift
+//  PlusUX Demo
 //
 //  Created by Christoffer Winterkvist on 27/03/15.
 //
@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable class DesignableView: UIView, Designable {
+@IBDesignable class DesignableButton: UIButton, Designable {
 
     @IBInspectable internal var borderColor: UIColor = UIColor.clearColor() {
         didSet {

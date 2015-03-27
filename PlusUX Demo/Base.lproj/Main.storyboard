@@ -18,49 +18,116 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fCf-Dn-DER" customClass="DesignableView" customModule="PlusUX_Demo" customModuleProvider="target">
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fCf-Dn-DER" customClass="DesignableView" customModule="PlusUX_Demo" customModuleProvider="target">
                                 <rect key="frame" x="36" y="141" width="528" height="318"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="REp-XF-8VP">
+                                        <rect key="frame" x="30" y="91" width="468" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="centerX" secondItem="REp-XF-8VP" secondAttribute="centerX" id="Guu-nR-PuK"/>
+                                    <constraint firstAttribute="trailing" secondItem="REp-XF-8VP" secondAttribute="trailing" constant="30" id="dd6-ZD-Pmv"/>
+                                    <constraint firstAttribute="centerY" secondItem="REp-XF-8VP" secondAttribute="centerY" constant="53" id="hfz-vH-4Rs"/>
+                                    <constraint firstItem="REp-XF-8VP" firstAttribute="leading" secondItem="fCf-Dn-DER" secondAttribute="leading" constant="30" id="xor-67-6gH"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="4"/>
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetY">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qca-sd-3h0" customClass="DesignableButton" customModule="PlusUX_Demo" customModuleProvider="target">
+                                <rect key="frame" x="232" y="283" width="137" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="137" id="qZt-OT-ZGY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="15"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.28627452250000002" green="0.49019607900000001" blue="0.74509805439999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="fCf-Dn-DER" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="0RI-NV-tNQ"/>
                             <constraint firstItem="fCf-Dn-DER" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="2pk-RU-aTH"/>
                             <constraint firstItem="fCf-Dn-DER" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="121" id="31H-zM-X10"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fCf-Dn-DER" secondAttribute="trailing" constant="20" id="8sK-Cm-id0"/>
                             <constraint firstItem="fCf-Dn-DER" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="121" id="FC8-Kl-S3W"/>
+                            <constraint firstItem="Qca-sd-3h0" firstAttribute="centerY" secondItem="fCf-Dn-DER" secondAttribute="centerY" id="G3u-rZ-gey"/>
                             <constraint firstAttribute="centerX" secondItem="fCf-Dn-DER" secondAttribute="centerX" id="GKy-M7-HCH"/>
+                            <constraint firstItem="fCf-Dn-DER" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gb3-Bc-zqR"/>
+                            <constraint firstItem="fCf-Dn-DER" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="121" id="Geo-PU-4Qj"/>
                             <constraint firstAttribute="centerY" secondItem="fCf-Dn-DER" secondAttribute="centerY" id="JSM-Oq-VI6"/>
                             <constraint firstAttribute="centerY" secondItem="fCf-Dn-DER" secondAttribute="centerY" id="PsC-0M-01o"/>
+                            <constraint firstItem="fCf-Dn-DER" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="R6x-g5-p5h"/>
                             <constraint firstItem="fCf-Dn-DER" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="dvl-5G-uYD"/>
                             <constraint firstItem="fCf-Dn-DER" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="lvE-E0-enl"/>
                             <constraint firstAttribute="centerX" secondItem="fCf-Dn-DER" secondAttribute="centerX" id="m56-lw-uWC"/>
                             <constraint firstItem="fCf-Dn-DER" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="187:300" id="oZk-CF-MeJ"/>
+                            <constraint firstItem="Qca-sd-3h0" firstAttribute="centerX" secondItem="fCf-Dn-DER" secondAttribute="centerX" id="pIA-nS-HEC"/>
+                            <constraint firstItem="Qca-sd-3h0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="263" id="sJo-Uj-iYZ"/>
                             <constraint firstItem="fCf-Dn-DER" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="wp1-vn-aeX"/>
+                            <constraint firstItem="fCf-Dn-DER" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="z7Z-gN-1et"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="0RI-NV-tNQ"/>
                                 <exclude reference="2pk-RU-aTH"/>
+                                <exclude reference="31H-zM-X10"/>
+                                <exclude reference="8sK-Cm-id0"/>
                                 <exclude reference="FC8-Kl-S3W"/>
+                                <exclude reference="GKy-M7-HCH"/>
+                                <exclude reference="JSM-Oq-VI6"/>
                                 <exclude reference="PsC-0M-01o"/>
+                                <exclude reference="dvl-5G-uYD"/>
                                 <exclude reference="lvE-E0-enl"/>
                                 <exclude reference="m56-lw-uWC"/>
                                 <exclude reference="oZk-CF-MeJ"/>
                                 <exclude reference="wp1-vn-aeX"/>
+                                <exclude reference="sJo-Uj-iYZ"/>
                             </mask>
                         </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-33" y="242"/>
+            <point key="canvasLocation" x="-23" y="242"/>
         </scene>
     </scenes>
 </document>
